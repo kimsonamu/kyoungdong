@@ -1,0 +1,36 @@
+.main .con3 {
+    position: relative;
+    &::after {
+        content: '';
+        display: block;
+        width: 45%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #07255d;
+        z-index: -10;
+    }
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left {
+        width: 480px;
+        color: #fff;
+        h2 {
+            &::after {
+                content: '';
+                display: block;
+                height: 1px;
+                width: 100px;
+                border: 1px solid #fff;
+                margin-top: 20px;
+            }
+        }
+        p {
+            word-break: keep-all;
+        }
+    }
+}

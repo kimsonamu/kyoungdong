@@ -1,0 +1,36 @@
+.main .con4 {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        li {
+            &:nth-child(1) {
+                background-color: rgba(207, 107, 39, 0.8);
+            }
+            &:nth-child(2) {
+                background-color: rgba(38, 44, 55, 0.8);
+            }
+            &:nth-child(3) {
+                background-color: rgba(9, 27, 65, 0.8);
+            }
+            a {
+                color: #fff;
+                width: 220px;
+                height: 220px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                & > span {
+                    margin-bottom: 10px;
+                }
+                strong {
+                    text-align: center;
+                    span {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

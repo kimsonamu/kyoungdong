@@ -1,0 +1,33 @@
+@charset "UTF-8";
+#wrap { width: 100%;min-width: 1600px; }
+.inner { width: 1180px;margin: auto;position: relative;box-sizing: border-box; }
+#header, #visual, #container, #content, #footer { width: 100%; }
+
+#header { width: 1740px;background-color: #fff;position: absolute;top: 20px;left: 50%;transform: translateX(-50%);z-index: 100; }
+#header .inner { height: 90px;display: flex;justify-content: space-between;align-items: center; }
+#header h1 {}
+#header .util { display: flex;align-items: center; }
+#header .util .lang { display: flex; }
+#header .util .lang li { margin-right: 20px; }
+#header .util .lang li a { color: #979797;font-size: 13px;font-weight: 300; }
+#header .util .lang li.on a { color: #000; }
+#header .util .all-menu { cursor: pointer; }
+#header .util .all-menu i { color: #000;font-size: 40px;vertical-align: middle; }
+#header .nav {}
+#header .nav .gnb { display: flex;justify-content: center; }
+#header .nav .gnb li {}
+#header .nav .gnb li a { font-size: 18px;font-weight: 700;color: #222;display: block;padding: 10px 60px; }
+
+#footer { background-color: #131313; }
+#footer .inner { height: 165px;display: flex;flex-direction: column;justify-content: center; }
+/* 인너 플렉스는 그냥 내가 이렇게 함... 쌤은 플렉스 없이 구조 잡으심 */
+#footer .inner p { color: #fff;font-size: 14px; }
+#footer .inner p.top {
+    position: absolute;right: -50px;top: -70px;
+    width: 70px;height: 70px;
+    background-color: #131313;
+    text-align: center;
+}
+#footer .inner p.top a { color: #fff; }
+#footer .inner p.top i { vertical-align: bottom;font-size: 30px;margin-top: 10px; }
+#footer .inner p.top span { display: block;font-size: 15px; }

@@ -1,0 +1,28 @@
+#header {
+    .util {
+        display: flex;
+        align-items: center;
+        .lang {
+            display: flex;
+            li {
+                margin-right: 20px;
+                &.on a {
+                    color: #000;
+                }
+                a {
+                    color: #979797;
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+            }
+        }
+        .all-menu {
+            cursor: pointer;
+            i {
+                color: #000;
+                font-size: 40px;
+                vertical-align: middle;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.main .con4 {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url('http://www.kyungdong.co.kr/ko/front/image/main/main_foot_bg.jpg');
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left {
+        width: 480px;
+        h2 {
+            line-height: 1;
+            span {
+                display: block;
+                font-weight: 200;
+            }
+        }
+    }
+}

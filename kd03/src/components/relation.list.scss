@@ -1,0 +1,29 @@
+.main .con3 {
+    ul {
+        width: 620px;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            margin-bottom: 30px;
+            &:nth-child(odd) {
+                margin-right: 40px;
+            }
+            a div {
+                width: 275px;
+                height: 200px;
+                margin-bottom: 10px;
+                overflow: hidden;
+                img {
+                    transition: 1s;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center center;
+                }
+                &:hover img {
+                    transform: scale(105%);
+                }
+            }
+        }
+    }
+}

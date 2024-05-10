@@ -1,0 +1,110 @@
+@charset "UTF-8";
+#wrap {
+    width: 100%;
+    min-width: 1600px;
+}
+.inner {
+    width: 1180px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+#visual,
+#container,
+#content,
+#footer {
+    width: 100%;
+}
+.main .con-box {
+    width: 100%;
+    .inner {
+        padding: 120px 0;
+    }
+    h2 {
+        font-size: 45px;
+        font-weight: 500;
+    }
+    .more {
+        a {
+            display: inline-block;
+            width: 180px;
+            height: 50px;
+            border: 1px solid #000;
+            text-align: center;
+            line-height: 50px;
+            font-size: 15px;
+            border-radius: 25px;
+            position: relative;
+            overflow: hidden;
+            span {
+                transition: 0.4s;
+                position: relative;
+                z-index: 5;
+            }
+            i {
+                vertical-align: middle;
+            }
+            &::after {
+                content: '';
+                display: block;
+                width: 250px;
+                height: 70px;
+                transition: 0.4s;
+                transform: skewX(15deg);
+                position: absolute;
+                left: -260px;
+                top: -10px;
+            }
+            &:hover::after {
+                left: -10px;
+            }
+        }
+    }
+}
+.main .box1 {
+    h2 {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    h2 + p {
+        font-size: 17px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .more {
+        text-align: center;
+        a {
+            border-color: #000;
+            span {
+                color: gray;
+            }
+            &:hover {
+                border-color: orange;
+                span {
+                    color: #fff;
+                }
+                &::after {
+                    background-color: orange;
+                }
+            }
+        }
+    }
+}
+.main .box2 {
+    h2 { margin-bottom: 25px; }
+    h2 + p { font-size: 17px;font-weight: 300;margin-bottom: 40px; }
+    .more {
+        a {
+            border-color: #fff;
+            span {
+                color: #fff;
+            }
+            &:hover span {
+                color: #000;
+            }
+            &:hover::after {
+                background-color: #fff;
+            }
+        }
+    }
+}
