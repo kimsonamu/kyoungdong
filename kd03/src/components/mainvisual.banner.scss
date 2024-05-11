@@ -12,18 +12,18 @@
             display: flex;
             align-items: center;
             &:nth-child(1) {
-                background-image: url('http://www.kyungdong.co.kr/ko/front/image/main/main01_pc.jpg');
+                // background-image: url('../src/assets/images/main/main01_pc.jpg');
                 left: 0;
             }
-            &:nth-child(2) {
-                background-image: url('http://www.kyungdong.co.kr/ko/front/image/main/main02_pc.jpg');
-            }
-            &:nth-child(3) {
-                background-image: url('http://www.kyungdong.co.kr/ko/front/image/main/main03_pc.jpg');
-            }
-            &:nth-child(4) {
-                background-image: url('http://www.kyungdong.co.kr/ko/front/image/main/main04_pc.jpg');
-            }
+            // &:nth-child(2) {
+            //     background-image: url('../src/assets/images/main/main02_pc.jpg');
+            // }
+            // &:nth-child(3) {
+            //     background-image: url('../src/assets/images/main/main03_pc.jpg');
+            // }
+            // &:nth-child(4) {
+            //     background-image: url('../src/assets/images/main/main04_pc.jpg');
+            // }
             &.on .txt {
                 h2 {
                     animation: aniTxt 0.4s linear 1 forwards;

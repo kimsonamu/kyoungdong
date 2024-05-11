@@ -1,13 +1,13 @@
 import AboutList from './AboutList';
 import './about.scss';
 const arrConList = [
-    {id:1,url:'#',imgurl:'http://www.kyungdong.co.kr/ko/front/image/main/main_foot_icn01.png',alt:'두루마리문서아이콘',desc1:'CEO 인사말',desc2:`CEO's Greetings`},
-    {id:2,url:'#',imgurl:'http://www.kyungdong.co.kr/ko/front/image/main/main_foot_icn02.png',alt:'지구순환아이콘',desc1:'경영이념',desc2:`Management Philosophy`},
-    {id:3,url:'#',imgurl:'http://www.kyungdong.co.kr/ko/front/image/main/main_foot_icn03.png',alt:'돋보기와빌딩아이콘',desc1:'관계사',desc2:`Business Overview`},
+    {id:1,url:'#',imgurl:'../src/assets/images/main/main_foot_icn01.png',alt:'두루마리문서아이콘',desc1:'CEO 인사말',desc2:`CEO's Greetings`},
+    {id:2,url:'#',imgurl:'../src/assets/images/main/main_foot_icn02.png',alt:'지구순환아이콘',desc1:'경영이념',desc2:`Management Philosophy`},
+    {id:3,url:'#',imgurl:'../src/assets/images/main/main_foot_icn03.png',alt:'돋보기와빌딩아이콘',desc1:'관계사',desc2:`Business Overview`},
 ];
 const About = () => {
     return (
-        <div className="con-box con4 box2">
+        <div className="con-box con4 box2" style={{backgroundImage:`url('../src/assets/images/main/main_foot_bg.jpg')`}}>
             <div className="inner">
                 <div className="left">
                     <h2>

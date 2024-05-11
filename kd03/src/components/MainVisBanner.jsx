@@ -1,7 +1,7 @@
 import './mainvisual.banner.scss';
 const MainVisBanner = () => {
     return (
-        <li className="on">
+        <li className="on" style={{backgroundImage:`url('../src/assets/images/main/main01_pc.jpg')`}}>
             <div className="inner">
                 <div className="txt">
                     <h2>
