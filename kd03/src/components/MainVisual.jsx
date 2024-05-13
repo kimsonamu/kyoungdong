@@ -8,14 +8,14 @@ const MainVisual = () => {
             </ul>
             <p className="btn-wrap">
                 <button className="btn prev">
-                    <img src="../src/assets/images/main/btn_prev2.png" alt="이전버튼" />
+                    <img src="./images/main/btn_prev2.png" alt="이전버튼" />
                 </button>
                 <button className="btn next">
-                    <img src="../src/assets/images/main/btn_next2.png" alt="다음버튼" />
+                    <img src="./images/main/btn_next2.png" alt="다음버튼" />
                 </button>
             </p>
             <p className="scroll">
-                <img src="../src/assets/images/main/scroll.png" alt="마우스스크롤링" />
+                <img src="./images/main/scroll.png" alt="마우스스크롤링" />
             </p>
         </section>
     );
