@@ -4,9 +4,6 @@ preview https://kimsonamu.github.io/kyoungdong/kd03/dist/
 
 ## html, scss, react only , except js
 
--   http 이미지 경로 https자동 리디렉션 에러로 경로 local로 수정
-
-    ***
 
 ```bash
 ├── assets
@@ -14,21 +11,24 @@ preview https://kimsonamu.github.io/kyoungdong/kd03/dist/
 │   ├── images
 │   └── api
 ├── components
-│   ├── Header.jsx
-│   ├── MainVisual.jsx
+│   ├── Header.jsx, header.scss
+│   │      ├── TopMenu.jsx
+│   │      └── Nav.jsx, header.nav.scss
+│   ├── MainVisual.jsx, mainvisual.scss
+│   │      └── MainVisBanner.jsx, mainvisual.banner.scss
 │   ├── Main.jsx
-│   │   ├── Business
-│   │   │   ├── BusinessList
-│   │   │   └── BusinessItem
-│   │   ├── TechSys
-│   │   │   ├── TechList
-│   │   │   └── TechListItem
-│   │   ├── Relation
-│   │   │   ├── RelationList
-│   │   │   └── RelationListItem
-│   │   └── About
-│   │   │   └── AboutList
-│   ├── Footer.jsx
-│   └── SideBar.jsx
-└── run.sh
+│   │   ├── Business.jsx, business.scss
+│   │   │   ├── BusinessList.jsx , business.list.scss
+│   │   │   └── BusinessItem.jsx
+│   │   ├── TechSys.jsx, techsys.scss
+│   │   │   ├── TechList.jsx, techsys.list.scss
+│   │   │   └── TechListItem.jsx
+│   │   ├── Relation.jsx, relation.scss
+│   │   │   ├── RelationList.jsx , relation.list.scss
+│   │   │   └── RelationListItem.jsx
+│   │   └── About.jsx, about.scss
+│   │   │   └── AboutList.jsx, about.list.scss
+│   ├── Footer.jsx, footer.scss
+│   └── SideBar.jsx , sidebar.scss
+└── app.jsx
 ```
